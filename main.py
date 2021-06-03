@@ -11,9 +11,6 @@ data = df["temp"].tolist()
 # code to show the plot of raw data
 # fig = ff.create_distplot([data], ["temp"], show_hist=False)
 # fig.show()
-
-
-
 #code to find mean and std deviation of 100 data points
 # dataset = []
 # for i in range(0, 100):
@@ -22,11 +19,8 @@ data = df["temp"].tolist()
 #     dataset.append(value)
 # mean = statistics.mean(dataset)
 # std_deviation = statistics.stdev(dataset)
-#
 # print("Mean of sample:- ",mean)
 # print("std_deviation of sample:- ",std_deviation)
-
-
 
 ##  code to find the mean of 100 data points 1000 times and plot it
 #function to get the mean of the given data samples
@@ -62,11 +56,9 @@ def setup():
 
 setup()
 
-
 #Code to find the mean of the raw data ("population data")
 population_mean = statistics.mean(data)
 print("population mean:- ", population_mean)
-
 
 # code to find the standard deviation of the sample data
 def standard_deviation():
